@@ -1,18 +1,8 @@
-import HashTables.HashMaps;
-
-import java.util.*;
-
+import ContainsDuplicateLeetCode_217.ContainsDuplicate;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(HashMaps.firstRepeatedCharacter("a green apple"));
-        HashMaps table = new HashMaps();
-        table.put(6,"A");
-        table.put(8,"B");
-        table.put(11,"C");
-        table.put(6,"A+");
-        table.remove(6);
-        System.out.println("Done");
+        System.out.println(ContainsDuplicate.containsDuplicate(new int[]{1,2,3,4}));
         }
 
 }
