@@ -1,15 +1,14 @@
 import Arrays.Array;
 import GroupAnagramsLeetCode_49.GroupAnagrams;
+import TopKFrequentElementsLeetCode_347.TopKFrequentElements;
 import TwoSumLeetCode_1.TwoSum;
 
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(TwoSum.twoSum(new int[]{2,7,11,15},9)));
-        GroupAnagrams.groupAnagrams(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"});
-        System.out.println(GroupAnagrams.groupAnagramsOptimized(new String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
-        GroupAnagrams.groupAnagrams(new String[]{""});
+        TopKFrequentElements.topKFrequent(new int[]{1,1,1,2,2,3}, 2);
+
         }
 
 }
