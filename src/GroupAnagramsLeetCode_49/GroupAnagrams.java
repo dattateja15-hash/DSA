@@ -31,10 +31,11 @@ public class GroupAnagrams {
             int[] arr = new int[26];
             for(char c:s.toCharArray()){
                 arr[c-'a']++;
+
             }
             StringBuilder sb = new StringBuilder();
             for(int i = 0; i<26;i++){
-                sb.append(arr[i]);
+                sb.append(arr[i]).append('#');
             }
             String key = sb.toString();
             if(!map.containsKey(key)){
