@@ -31,7 +31,6 @@ public class GroupAnagrams {
             int[] arr = new int[26];
             for(char c:s.toCharArray()){
                 arr[c-'a']++;
-
             }
             StringBuilder sb = new StringBuilder();
             for(int i = 0; i<26;i++){
